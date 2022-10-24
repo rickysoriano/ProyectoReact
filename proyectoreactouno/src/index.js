@@ -7,11 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MainBar from './Components/iu/MainBar';
 import Login from './Components/login/Login';
 import StudentAddV from './Components/student/StudentAddV';
+import  TeacherAddV  from './Components/teacher/TeacherAddV';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <TeacherAddV />
   </React.StrictMode>
 );
 
